@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { Router } = require("express");
 const router = Router();
-const userMiddleware = require("../middleware/user");
+const userMiddleware = require("../Middleware/User");
 const {User} = require("../db");
 const {Course} = require("../db");
 
